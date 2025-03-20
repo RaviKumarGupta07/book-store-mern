@@ -10,7 +10,8 @@ import { Pagination, Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import { useFetchAllBooksQuery } from "../../redux/feature/cart/booksApi";
+import { useFetchAllBooksQuery } from "../../redux/feature/books/booksApi";
+
 
 const categories = [
   "chooose a genre",
